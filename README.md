@@ -113,4 +113,4 @@ Starts all registered polling threads and blocks until they finish.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+This project is licensed under the GNU GPL v3 License. See [![license](https://img.shields.io/github/license/rbxluau/ewvkqq-sdk)](https://github.com/rbxluau/ewvkqq-sdk/blob/main/LICENSE).
