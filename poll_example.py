@@ -5,7 +5,7 @@ from ewvkqq import *
 executed = set()
 
 
-@poll.poll_event(poll.Event.order, "123456", 1)
+@poll.poll_event(poll.Event.order, "000000", 1)
 def poll_event(order: dict):
     if order["code"] != 1:
         return

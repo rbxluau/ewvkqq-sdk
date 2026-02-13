@@ -55,7 +55,7 @@ python -m playwright install chromium
 from ewvkqq import pull
 
 # Query paid orders by contact keyword
-orders = pull.pull_event(pull.Event.order, "123456", 1)
+orders = pull.pull_event(pull.Event.order, "000000", 1)
 print(orders)
 ```
 
@@ -64,7 +64,7 @@ print(orders)
 ```python
 from ewvkqq import poll, run_main
 
-@poll.poll_event(poll.Event.order, "123456", 1)
+@poll.poll_event(poll.Event.order, "000000", 1)
 def on_order(payload: dict):
     if payload.get("code") == 1:
         print(payload)
