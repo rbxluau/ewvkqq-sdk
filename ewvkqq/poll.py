@@ -1,12 +1,13 @@
-from json import JSONDecodeError
-from typing import Callable
 import cv2
+from json import JSONDecodeError
 import re
 import time
+from typing import Callable
 
-from .utils import *
 import numpy
 import ollama
+
+from .utils import *
 
 
 class Event:
